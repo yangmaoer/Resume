@@ -150,6 +150,9 @@ p {
     color: #999;
     line-height: 1.8em;
 }
+.about-left p {
+    text-indent: 2em;
+}
 .about-right {
     padding-left: 5em;
 }
@@ -376,6 +379,7 @@ h2.resp-accordion {
 	position: relative;
 	overflow:hidden;
 	background: #000;
+    height: 200px;
 }
 .grid img {
 	opacity: 0.8;
@@ -432,7 +436,7 @@ h2.resp-accordion {
 .grid h3 {
     position: relative;
     overflow: hidden;
-    padding: 0.5em 0;
+    padding:0 0 0.5em 0;
 	-moz-opacity: 0;
     opacity: 0;
     text-transform: uppercase;
@@ -777,7 +781,7 @@ h3.title {
 	float: left;
 }
 .grid .figcaption {
-    padding: 1em 1.5em;
+    padding: 0.5em 1em;
 }
 .grid h3 {
     font-size: 1.5em;
